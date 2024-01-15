@@ -1,0 +1,35 @@
+{
+    "modules": [],
+    "properties": {
+        "backendModules": [],
+        "description": "Allows you to create tables in the DMI style.",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 11.5.0-11.5.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "generateDocumentationTemplate": false,
+            "generateEditorConfig": false,
+            "generateEmptyGitRepository": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "11.5.0-11.5.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "dmi_table_creator",
+        "name": "DMI Table Creator",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [],
+        "plugins": [],
+        "vendorName": "DMI"
+    },
+    "wires": [],
+    "storagePath": "\/var\/www\/typoweb1t.dmi.dk\/typo3conf\/ext\/",
+    "log": {
+        "last_modified": "2024-01-15 03:59",
+        "extension_builder_version": "11.0.9",
+        "be_user": "Arne Grinder-Hansen (58)"
+    }
+}

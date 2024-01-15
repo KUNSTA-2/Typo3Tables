@@ -1,0 +1,15 @@
+tt_content {
+    table_element =< lib.contentElement
+    table_element {
+        templateName = Table
+        dataProcessing {
+            10 = TYPO3\CMS\Frontend\DataProcessing\DatabaseQueryProcessor
+            10 {
+                table = tt_content
+                pidInList.field = pid
+                where.field = uid
+                as = tableData
+            }
+        }
+    }
+}

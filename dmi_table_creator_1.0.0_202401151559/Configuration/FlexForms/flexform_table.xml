@@ -1,0 +1,36 @@
+<T3DataStructure>
+    <sheets>
+        <sDEF>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>Table Configuration</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+                    <rows>
+                        <TCEforms>
+                            <label>Number of rows</label>
+                            <config>
+                                <type>input</type>
+                                <size>4</size>
+                                <eval>int</eval>
+                                <default>3</default>
+                            </config>
+                        </TCEforms>
+                    </rows>
+                    <columns>
+                        <TCEforms>
+                            <label>Number of columns</label>
+                            <config>
+                                <type>input</type>
+                                <size>4</size>
+                                <eval>int</eval>
+                                <default>3</default>
+                            </config>
+                        </TCEforms>
+                    </columns>
+                </el>
+            </ROOT>
+        </sDEF>
+    </sheets>
+</T3DataStructure>

@@ -1,0 +1,7 @@
+plugin.tx_dmi_table_creator {
+    view {
+        templateRootPaths.0 = EXT:dmi_table_creator/Resources/Private/Templates/
+        partialRootPaths.0 = EXT:dmi_table_creator/Resources/Private/Partials/
+        layoutRootPaths.0 = EXT:dmi_table_creator/Resources/Private/Layouts/
+    }
+}
